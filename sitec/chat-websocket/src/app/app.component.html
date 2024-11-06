@@ -1,0 +1,16 @@
+<div class="container">
+  <div class="chat-box">
+    <div class="messages">
+      @for(message of messages; track message.id_message) {
+        <div class="message new-message" [ngClass]="{'from-me': message.from-me}"></div>
+        <span>{{message.name}}:</span>
+        <p>{{message.mensagem}}</p>
+      }
+    </div>
+
+  </div>
+  <div class="input-area">
+    <input type="text" [(ngModel)]="newMessage" placeholder="Digite uma mensagem">
+    <button (click)="sendMessage()">Enviar</button>
+  </div>
+</div>
