@@ -10,3 +10,5 @@ Node.js para o backend, com as dependências: express, socket.io e cors para fac
 Angular no frontend, usando ngx-socket-io para gerenciar as interações em tempo real.
 
 📚 Projeto ministrado pelo professor: David Guedes.
+
+![image](https://github.com/user-attachments/assets/08608832-8b50-430f-992b-f7b184bf5e1a)
